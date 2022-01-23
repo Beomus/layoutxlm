@@ -36,6 +36,6 @@ RUN git clone https://github.com/Beomus/layoutxlm.git
 
 WORKDIR /home/appuser/layoutxlm
 
-RUN pip install -r requirements.txt
+RUN pip install -r reqs.txt
 
-RUN python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+RUN python3 -m pip install 'git+https://github.com/facebookresearch/detectron2.git'

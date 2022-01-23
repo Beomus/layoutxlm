@@ -1,13 +1,26 @@
-# layoutlmft
-**Multimodal (text + layout/format + image) fine-tuning toolkit for document understanding**
+# layoutxlm
+**Multimodal (text + layout/format + image) fine-tuning toolkit for document understanding trained on `XFUN.ja`**
 
 ## Introduction
 
 ## Supported Models
-Popular Language Models: BERT, UniLM(v2), RoBERTa, InfoXLM
 
-LayoutLM Family: LayoutLM, LayoutLMv2, LayoutXLM
+Your machine
+```bash
+pip install -r requirements.txt
 
+python3 -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+```
+
+Docker container
+```bash
+docker build -t layoutxlm .
+```
+
+Inside your container
+```bash
+jupyter lab --ip 0.0.0.0 --no-browser --allow-root
+```
 ## Installation
 
 ~~~bash
