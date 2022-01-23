@@ -36,7 +36,7 @@ docker build -t layoutxlm .
 - On your host:
 
     ```bash
-    docker run -it --name inference --mount type=bind,source="$(pwd)"/infer,infer=/infer -p 8888:8888 layoutxlm:latest
+    docker run -it --name inference --mount type=bind,source="$(pwd)"/infer,target=/infer -p 8888:8888 layoutxlm:latest
     ```
 
 - Inside your container:
