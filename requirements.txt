@@ -5,6 +5,4 @@ torch==1.8.0
 torchvision==0.10.0
 transformers==4.15.0
 seqeval==1.2.2
-pytesseract==0.3.8
 pdf2image==1.16.0
-jupyterlab==3.2.8

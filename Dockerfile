@@ -1,9 +1,11 @@
 FROM huggingface/transformers-pytorch-cpu
 
-RUN apt-get update && apt-get install -y \
-	python3-opencv ca-certificates python3-dev git wget sudo ninja-build
+ENV DEBIAN_FRONTEND=nonintercative
 
-RUN ln -sv /usr/bin/python3 /usr/bin/python
+# RUN apt-get update && apt-get install -y \
+# 	python3-opencv ca-certificates python3-dev git wget sudo tesseract-ocr libtesseract-dev
+
+# RUN ln -sv /usr/bin/python3 /usr/bin/python
 
 # create a non-root user
 ARG USER_ID=1000
