@@ -3,7 +3,7 @@
 pillow==8.4.0
 sentencepiece==0.1.96
 datasets==1.17.0
-torch==1.8.0
+torch==1.13.1
 torchvision==0.10.0
 transformers==4.15.0
 seqeval==1.2.2
