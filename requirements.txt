@@ -1,6 +1,6 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 
-pillow==10.0.1
+pillow==10.2.0
 sentencepiece==0.1.96
 datasets==1.17.0
 torch==1.13.1
